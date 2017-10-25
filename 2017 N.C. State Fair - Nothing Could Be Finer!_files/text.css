@@ -1,0 +1,149 @@
+/******************/
+/*  MAIN SECTION  */
+/******************/
+
+/*Red - #FE0000*/
+/*Dark Red - #400000*/
+/*Blue - #1B75B9*/
+/*Dark Blue - #00274E*/
+/*Green - #5B9842*/
+
+
+body {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+	color: #000000;	
+	font-style: normal;
+	font-weight:400;
+}
+ 
+p {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+	color: #000000;	
+	font-style: normal;
+	font-weight:400;
+	line-height: 17px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-weight:400;
+	color: #1A80B5;
+	
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight:400;
+	color: #00ABB7;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight:400;
+	color: #CF202F;
+}
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight:400;
+	color: #1A80B5;
+	
+}
+
+h5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight:500;
+	color: #000000;
+}
+
+ul {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight:400;
+} 
+
+li {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	/*font-variant: small-caps; */
+	/*font-weight:bold !important;*/
+}
+
+
+
+/********************/
+/*  COMMON CLASSES  */
+/********************/
+
+.main a {color:#E76B41; font-style:italic; text-decoration:underline;}
+
+.main a:hover {font-style:italic; text-decoration:none;}
+/*.main a:visited {color:rgb(42,90,138);}*/
+
+.main-content a{
+	letter-spacing: .5px;	
+}
+
+.main-content table h3{
+	color: #FFFFFF;
+	letter-spacing: .5px;
+}
+
+.main table {	
+	width: 100%;
+	font-size: 14px;
+	color: #00274e;	
+}
+
+
+.main ul li{
+	
+	font-size: 14px;
+	color: #000000;	
+	
+}
+.main ol li{
+	
+	font-size: 14px;
+	color: #00274e;	
+	
+}
+
+.main a img {border: 0px;}
+.main a:hover img {border: 0px;}
+
+.smallfont { font-size:12px;}
+
+.attention {
+	color: #FE0000 !important;
+	font-weight: bold !important;
+	font-style: italic;
+	letter-spacing: .3px;
+}
+
+.white_text, .white_text p{
+	
+	color: #FFFFFF;
+}
+
+.yellow_link{
+	
+}
+.yellow_link a {
+	color: #FFFF00;
+}
+
+.yellow_link a:hover {
+	color: #FFFF00;
+	}

@@ -1,0 +1,6 @@
+/*
+ Quantcast measurement tag
+ Copyright (c) 2008-2017, Quantcast Corp.
+*/
+(function(f,g,e){try{__qc("defaults",f,{labels:"_fp.event.Default"})}catch(n){}var k=function(a,b,c){return a?"nc"===a?!b||!c||0>b.indexOf(c):"eq"===a?b===c:"sw"===a?0===b.indexOf(c):"ew"===a?(a=b.length-c.length,b=b.lastIndexOf(c,a),-1!==b&&b===a):"c"===a?0<=b.indexOf(c):!1:!1},l=function(a){var b=e.createElement("a");b.href=a;return b},m=function(a,b,c){var d;d=g.top===g.self?e.location.href:l(e.referrer).href;k(b,d,c)?a(d):a(!1)},h=function(a){return"array"==={}.toString.call(a).match(/\s([a-zA-Z]+)/)[1].toLowerCase()?
+{labels:a.join(",")}:{labels:""+a}};__qc.apply(null,["rules",[f,null,[[h,"_fp.event.Buy Tickets"]],[[m,"c","http://www.etix.com/ticket/v/1949"]]],[f,null,[[h,"_fp.event.Index"]],[[m,"c","http://www.ncstatefair.org/2017/index.htm"]]],[f,null,[[h,"_fp.event.Homepage"]],[[function(a,b,c){var d;d=g.top===g.self?e.location.pathname:l(e.referrer).pathname;k(b,d,c)?a(d):a(!1)},"eq","/"]]]])})("p-_CAtsSTcN57bU",window,document);
